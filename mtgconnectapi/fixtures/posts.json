@@ -1,0 +1,54 @@
+[
+    {
+        "model": "mtgconnectapi.Post",
+        "pk": 1,
+        "fields": {
+            "user": 3,
+            "title": "I'm new to the game anyone want to show me the ropes",
+            "format": 1,
+            "deck": 5,
+            "gameOver": false,
+            "body": "I'm just learning to play, anyone want to go easy on me and show me the ropes?",
+            "date": "2024-03-25T13:33:44Z"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Post",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "title": "My buddy just gave me this",
+            "format": 1,
+            "deck": 4,
+            "gameOver": false,
+            "body": "Just got this jank mono blue deck that I want to play, anyone else up for it?",
+            "date": "2024-03-29T09:09:48Z"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Post",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "title": "Who wants to play some standard?",
+            "format": 2,
+            "deck": 3,
+            "gameOver": false,
+            "body": "I'll be at Mavericks in Mason on 42, if anyone wants to get some games in.",
+            "date": "2024-04-13T13:45:40Z"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Post",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "title": "Anyone want to play some modern?",
+            "format": 3,
+            "deck": 1,
+            "gameOver": false,
+            "body": "I'll be at Mavericks if you want to get some games in",
+            "date": "2024-04-13T13:55:24Z"
+        }
+    }
+]

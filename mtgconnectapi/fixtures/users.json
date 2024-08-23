@@ -1,0 +1,39 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "password": "pbkdf2_sha256$320000$5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "fields": {
+            "first_name": "Chad",
+            "last_name": "Cote",
+            "email": "chadschooling1@gmail.com",
+            "username": "chadschooling1@gmail.com",
+            "is_staff": true
+            
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "password": "pbkdf2_sha256$320000$5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "fields": {
+            "first_name": "Erinn",
+            "last_name": "Berger",
+            "email": "eberger13@example.com",
+            "username":"eberger13@example.com"
+            
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "password": "pbkdf2_sha256$320000$5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "fields": {
+            "first_name": "ezra",
+            "last_name": "Brewer",
+            "email": "ezraplaysminecraft@minecraft.com",
+            "username": "ezraplaysminecraft@minecraft.com"
+            
+        }
+    }
+]

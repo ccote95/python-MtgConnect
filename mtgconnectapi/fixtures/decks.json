@@ -1,0 +1,50 @@
+[
+    {
+        "model": "mtgconnectapi.Deck",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "name": "Simic Landfall"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Deck",
+        "pk": 2,
+        "fields": {
+            "user": 3,
+            "name": "Sylesnea Humans"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Deck",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "name": "Gulgari Life drain"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Deck",
+        "pk": 4,
+        "fields": {
+            "user": 3,
+            "name": "Rakdos Exile"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Deck",
+        "pk": 5,
+        "fields": {
+            "user": 2,
+            "name": "Mono Blue Mill"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Deck",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "name": "Mono Red"
+        }
+    }
+]
