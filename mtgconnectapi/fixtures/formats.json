@@ -1,0 +1,23 @@
+[
+    {
+        "model": "mtgconnectapi.Format",
+        "pk": 1,
+        "fields": {
+            "name": "Commander"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Format",
+        "pk": 2,
+        "fields": {
+            "name": "Standard"
+        }
+    },
+    {
+        "model": "mtgconnectapi.Format",
+        "pk": 3,
+        "fields": {
+            "name": "Modern"
+        }
+    }
+]
