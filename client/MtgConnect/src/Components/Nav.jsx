@@ -13,7 +13,7 @@ export const NavBar = () => {
     return (
         <div>
             <Navbar color="light" light>
-                <NavbarBrand href='/'>Gamer Rater</NavbarBrand>
+                <NavbarBrand href='/'>MtgConnect</NavbarBrand>
                 <NavbarToggler onClick={toggleNavbar} className=''/>
                     <Collapse isOpen={!collapsed} navbar>
                 <Nav navbar>
