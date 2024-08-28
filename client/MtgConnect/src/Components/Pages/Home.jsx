@@ -1,4 +1,4 @@
-import { Card, CardBody, CardTitle } from "reactstrap"
+import { Card, CardBody, CardText, CardTitle } from "reactstrap"
 
 export const Home = () => {
     return(
@@ -10,6 +10,9 @@ export const Home = () => {
                 <CardBody className="mx-auto fst-italic">
                     A place for Magic the Gathering players to connect
                 </CardBody>
+                <CardText className="mx-auto fst-italic fs-4">
+                    EST. 1995
+                </CardText >
             </Card>
         </div>
     )
