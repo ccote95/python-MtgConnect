@@ -9,9 +9,13 @@ from .deck_view import DeckSerializer
 class PostSerializer(serializers.ModelSerializer):
     format = FormatSerializer()
     deck = DeckSerializer()
+    date = serializers.SerializerMethodField()
     class Meta:
         model= Post
         fields = ("id","user","title","format","deck","gameOver","body","date")
+    
+    def get_date(self,obj):
+        return obj.date.strftime("%B %d, %Y" )
 
 
 class PostView(ViewSet):
