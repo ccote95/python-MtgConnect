@@ -6,7 +6,7 @@ from .deck import Deck
 class Post(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=255)
-    format = models.ForeignKey(Format, on_delete=models.SET_NULL, null=True)
+    format = models.ForeignKey(Format, related_name='posts', on_delete=models.SET_NULL, null=True)
     deck = models.ForeignKey(Deck, on_delete=models.SET_NULL, null=True)
     gameOver = models.BooleanField(default=False)
     body = models.TextField()
