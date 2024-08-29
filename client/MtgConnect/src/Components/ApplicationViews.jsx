@@ -3,6 +3,8 @@ import { Login } from "./Pages/Login.jsx"
 import { Register } from "./Pages/Register.jsx"
 import { Authorized } from "./Authorized.jsx"
 import { Home } from "./Pages/Home.jsx"
+import { AllPosts } from "./Pages/AllPosts.jsx"
+import { PostDetails } from "./Pages/PostDetails.jsx"
 
 export const ApplicationViews = () => {
     return (
@@ -10,7 +12,13 @@ export const ApplicationViews = () => {
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register />} />
         <Route element={<Authorized/>}>
-            <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
+            <Route path="allposts">
+            <Route index element={<AllPosts/>}/>
+              <Route path=":id">
+                <Route index element={<PostDetails/>}/>    
+              </Route>
+          </Route>
         </Route>
       </Routes>
     )
