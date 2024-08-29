@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { FetchAllPosts } from "../../postManager.js"
+import { PostList } from "../Cards/PostList.jsx"
 
 export const AllPosts = () => {
     const [post, setPosts] = useState([])
@@ -9,7 +10,7 @@ export const AllPosts = () => {
     },[])
     return(
         <div>
-            hello
+            <PostList content={post} />
         </div>
     )
 }

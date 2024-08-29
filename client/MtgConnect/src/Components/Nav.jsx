@@ -18,7 +18,7 @@ export const NavBar = () => {
                     <Collapse isOpen={!collapsed} navbar>
                 <Nav navbar>
                     <NavItem className="pl-2">
-                        <NavLink href="/allgames" className="text-blue-600 hover:text-purple-700">All Posts</NavLink>
+                        <NavLink href="/allposts" className="text-blue-600 hover:text-purple-700">All Posts</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="/create" className="text-blue-600 hover:text-purple-700"></NavLink>
