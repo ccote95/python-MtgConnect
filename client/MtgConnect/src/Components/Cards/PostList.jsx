@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom"
 import { Badge, Card, CardText, CardTitle } from "reactstrap"
 
 export const PostList = ({content}) => {
+    const navigate = useNavigate()
     return(
         <div>
             {content.map(c => (
@@ -20,13 +22,18 @@ export const PostList = ({content}) => {
                         </CardText>
                     </div>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-end me-1 mb-1">
-                        <button className="btn btn-primary" type="button">Details</button>
+                        <button 
+                        className="btn btn-primary" 
+                        type="button"
+                        onClick={() => {navigate(`/allposts/${c.id}`)}}
+                        >
+                            Details</button>
                     </div>
                 </Card>
             ))}
 
         </div>
     )
-    // Display the number of comments for each post
-    //
+    //Display the number of comments for each post
+    //Add some more color to the page
 }
